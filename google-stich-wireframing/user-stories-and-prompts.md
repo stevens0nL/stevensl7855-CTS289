@@ -26,6 +26,25 @@ as a brainstorming partner while YOU make the final design decisions.
 ## User Story #1: As a freelancer, I want to view my job dashboard with active gigs, earnings breakdown, and client ratings so I can track my freelance income and performance.
 ### Initial Context Prompt
 
+## User Story #2: As a **freelancer**, I want to **apply to a job with my pitch** so I can **get hired for projects**.
+
+**Acceptance Criteria**:
+- Job details (title, description, budget, client info)
+- Prefilled profile (hourly rate, skills, portfolio link)
+- Custom pitch textarea (300 char limit)
+- "Send Proposal" button
+- Loading → Success states
+
+## User Story #3: As a **freelancer**, I want to **track my job proposals** so I can **follow up and manage opportunities**.
+
+**Acceptance Criteria**:
+- Total proposals sent this week
+- Proposal cards (Job title, Client, Status: Sent/Interview/Hired, Last action)
+- "New Proposal" + "Messages" buttons
+- Filter: All/Pending/Hired
+
+**Minimum Screens**: 1 (Proposals Dashboard)
+**Minimum Screens**: 2 (Job Detail + Apply Form)
 **What I rejected or modified and WHY**:
 - Modified stats cards from 3 horizontal scroll to 2-column grid - horizontal scroll frustrating on mobile
 - Simplified gig detail screen - removed "messages timeline" (too complex), kept just milestones + chat button
