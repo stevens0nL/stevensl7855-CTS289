@@ -1,0 +1,17 @@
+Wireframes = BLUEPRINTS for UI (structure only, NO colors/fonts/images) and save 100s dev hours by catching issues pre-code
+1. HIERARCHY: Biggest = Most Important
+   - Overall goal → 48pt
+   - Secondary → 24pt  
+   - Details → 14pt
+   - Use SIZE + POSITION (not color)
+
+2. CLARITY: Can stranger understand in 5 sec?
+   - Label EVERYTHING ("Button", "Search", "Error State")
+   - No ambiguity → "Click → Shows results"
+
+3. CONSISTENCY: Same patterns everywhere
+   - All buttons same shape/location
+   - Same nav across screens
+   - Reuse components (header, footer)
+
+4. MOBILE FIRST: Design phone → scale up
